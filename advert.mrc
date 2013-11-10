@@ -1,7 +1,7 @@
 ; Source http://www.hawkee.com/snippet/8023/
 ; Modification for WeirdThall
 ; irc.geekshed.net #Script-Help
-; 2013-10-03
+; v1.0.0 2013-10-03
 ; Corrected NICK and QUIT events
  
 alias theme return 3
