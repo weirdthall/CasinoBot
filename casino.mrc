@@ -3,6 +3,12 @@
 ;v3.01.1 - All Bar parts of the script have been removed.  References to dollars are now satoshi inline with BTC theme
 ;v3.01.2 - All !slots references changed to +slots and characters replaced to more suit channel theme
 ;
+
+;VERSION
+on *:TEXT:+version:#:{
+   /notice $nick $+ , I am version 3.01.2.  I am owned and operated by WeirdThall.  My admins are:  WeirdThall, PirateKitteh and pussyfreak.
+   halt
+   }
 ;SLOTS
 on *:TEXT:+slots:#:{
   if ($readini( casino.ini, $nick, Money ) == $null) {
